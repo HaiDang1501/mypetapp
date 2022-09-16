@@ -1,0 +1,81 @@
+@use './PetCategory.scss';
+.featured-pet {
+    width: 75rem;
+    margin: 50px auto 0;
+}
+.featured-pet__container {
+    margin-top: 30px;
+    display: grid !important;
+    grid-gap: 30px;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-items: center;
+}
+.featured-pet__container .featured-pet__item {
+    width: 330px;
+    height: 400px;
+    background: #fff8f3;
+    border: 3px solid #c79572;
+    border-radius: 50px;
+    overflow: hidden;
+}
+.featured-pet__item .pet-item__img {
+    margin: 0 auto;
+    margin-left: 25px;
+    width: 250px;
+    height: 277px;
+    margin-top: 20px;
+}
+.featured-pet__item .pet-item__line {
+    border: 1px solid #c79572;
+    width: 90%;
+    margin: 8px auto;
+}
+.featured-pet__item .pet-item__cover {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    overflow:hidden;
+}
+.pet-item__cover .pet-cover__description {
+    flex-grow: 2;
+    margin-left: 10px;
+}
+.pet-cover__description .pet-description__name {
+    text-transform: capitalize;
+    font-weight: 400;
+    font-size: 22px;
+}
+.pet-cover__description .pet-description__price {
+    font-size: 22px;
+    font-weight: 700;
+}
+.pet-cover__description .pet-description__line {
+    border: 1px solid #c79572;
+}
+.pet-item__cover .pet-cover__eye {
+    flex-grow: 1;
+    background: #c79572;
+    border-radius: 50px;
+    width: 60px;
+    height: 55px;
+    color: #fff;
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.pet-item__cover .pet-cover__favorite {
+    flex-grow: 1;
+    background: #c79572;
+    border-radius: 50px;
+    width: 60px;
+    height: 55px;
+    color: #fff;
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

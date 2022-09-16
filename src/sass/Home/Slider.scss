@@ -1,0 +1,135 @@
+@mixin button-css{
+    background: #f6d0b4;
+    border-radius: 50px;
+    width: 160px;
+    height: 66px;
+    border: none;
+    font-size: 25px;
+    word-spacing: 10px !important;
+    margin: 0 auto;
+    cursor: pointer;
+    position: relative !important;
+    color: #333;
+    z-index: 999;
+    opacity: 1 !important;
+}
+.slide-container {
+    width: 100%;
+    height: 579px;
+    display: grid !important;
+    column-gap: 10px;
+    grid-template-columns: 35% 35% 25%;
+    background: #fff8f3;
+    border-radius: 50px;
+    display: none;
+}
+.slide-content {
+    margin-left: 30px;
+}
+.slide-content .slide-content__title {
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 61px;
+    text-align: center;
+    margin-top: 100px;
+}
+.slide-content .slide-content__intro {
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 37px;
+    margin-top: 30px;
+}
+.slide-img1 {
+    width: 450px;
+    height: 468.41px;
+    border-radius: 150px;
+    overflow: hidden;
+    margin-top: 110px;
+}
+.slide-img1 .img1 {
+    width: 100%;
+    height: 100%;
+}
+.slide-img2 {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+.slide-img2 .img2 {
+    width: 330px;
+    height: 373.06px;
+    border-radius: 100px;
+    margin-top: 30px;
+}
+
+.button-next {
+    @include button-css();
+}
+.button-next:hover {
+    transition: all 0.2s ease;
+    transform: scale(1.1);
+    color: #333 !important;
+}
+.button-next:focus {
+    outline: none;
+}
+.slide-container1 {
+    width: 100%;
+    height: 579px;
+    display: grid !important;
+    column-gap: 10px;
+    grid-template-columns: 35% 25% 35%;
+    background: #fff8f3;
+    border-radius: 50px;
+    display: none;
+}
+.slide-img3 {
+    width: 400px;
+    height: 440px;
+    border-radius: 100px;
+    overflow: hidden;
+    margin-top: 20px;
+    margin-left: 50px;
+}
+.slide-img3 .img3 {
+    width: 100%;
+    height: 100%;
+}
+.slide-img4 {
+    width: 250px;
+    height: 312px;
+    border-radius: 50px;
+    overflow: hidden;
+    margin-top: 257px;
+}
+.slide-img4 .img4 {
+    width: 100%;
+    height: 100%;
+}
+.slide-content__title1 {
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 61px;
+    text-align: center;
+    margin-top: 30px;
+}
+.slide-content__intro1 {
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 37px;
+    margin-top: 30px;
+    margin-bottom: 100px;
+}
+.button-next1 {
+    @include button-css();
+    margin-left: 250px;
+    
+}
+.button-next1:hover {
+    transition: all 0.2s ease;
+    transform: scale(1.1);
+    color: #333;
+}
+.button-next1:focus {
+    outline: none;
+}

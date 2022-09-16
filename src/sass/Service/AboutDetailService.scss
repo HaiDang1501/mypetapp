@@ -1,0 +1,87 @@
+@mixin layoutCss{
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    gap: 30px;
+}
+.about-service__wrapper {
+    margin-top: 80px;
+  .about-service__section14 {
+    .about-service__section1 {
+      width: 450px;
+      height: 353px;
+      background: #ffffff;
+      border-radius: 200px 200px 0 0;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      padding: 30px 0 0 40px;
+      .about-service__section1-title {
+        font-weight: 700;
+        font-size: 40px;
+        word-spacing: 15px;
+      }
+    }
+  }
+  .about-service__description {
+    font-weight: 300;
+    font-size: 30px;
+    word-spacing: 8px;
+  }
+  .about-service__section4 {
+    @include layoutCss();
+    width: 450px;
+    height: 353px;
+    background: #fff8f3;
+    box-shadow: 0px 4px 4px rgb(0 0 0 / 25%);
+    border-radius: 100px 0px 200px 200px;   
+    padding: 30px 10px 10px 60px;
+    .about-service__section4-title {
+      font-weight: 700;
+      margin: 10px;
+      font-size: 30px;
+    }
+  }
+  .about-service__section2 {
+    @include layoutCss();
+    width: 358px;
+    height: 353px;
+    background: #fff8f3;
+    box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 200px 200px 0 0;
+    padding: 50px 10px 10px 40px;
+  }
+  .about-service__img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-left: 90px;
+  }
+  .about-service__section5{
+    @include layoutCss();
+    width: 358px;
+    height: 353px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 0px 0px 200px 200px;
+    padding: 20px 10px 10px 40px;
+  }
+  .about-service__section3{
+    @include layoutCss();
+    width: 358px;
+    height: 353px;
+    background: #FFFFFF;
+    box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius:200px 200px 0 0 ;
+    padding: 20px 10px 10px 40px;
+  }
+  .about-service__section6{
+    @include layoutCss();
+    width: 358px;
+    height: 353px;
+    background: #FFF8F3;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 0px 0px 200px 200px;
+    padding: 20px 10px 10px 40px;
+  }
+}

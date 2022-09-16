@@ -1,0 +1,111 @@
+
+.login-register__wrapper {
+    width: 725px;
+    background: #fff8f3;
+    border: 1px solid #ffffff;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 50px;
+}
+.login-register__navigate {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background: #ffffff;
+    border-radius: 90px;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 20px;
+    width: 390px;
+    margin: 20px auto;
+    position: relative;
+}
+.login-register__navigate .active-nav {
+    width: 195px;
+    height: 60px;
+    background: #f6d0b4;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    z-index: 999;
+    pointer-events: none;
+    transition: all 0.2s ease;
+}
+.login-register__navigate .navigate-item {
+    border-radius: 50px;
+    width: 50%;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+/* .login-register__navigate .navigate.active {
+    background: #f6d0b4 !important;
+} */
+
+.login-register__OAuth2 {
+    width: 15rem;
+    margin: 20px auto;
+    font-size: 1.8rem;
+    display: flex;
+    justify-content: space-between;
+}
+.login-register__OAuth2 .circle {
+    width: 60px;
+    height: 60px;
+    background: #f6d0b4;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.login-register__OAuth2 .circle:hover {
+    opacity: 0.8;
+    transition: all 0.2s ease;
+    cursor: pointer;
+    transform: scale(1.1);
+}
+.login-register-line {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 25rem;
+    margin: 40px auto;
+    font-size: 20px;
+}
+.login-register-line .line {
+    border-bottom: 1px solid #333;
+    width: 30rem;
+    margin: 0 10px;
+}
+
+.login-register-form {
+    width: 70%;
+    margin: 20px auto;
+}
+.input--css {
+    outline: none !important;
+    border: none;
+    border-bottom: 1px solid;
+    background-color: #fff8f3;
+}
+.button--css {
+    width: 300px;
+    height: 50px;
+    background: #f6d0b4 !important;
+    border-radius: 50px;
+    color: #333;
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: uppercase;
+    border: none !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+}

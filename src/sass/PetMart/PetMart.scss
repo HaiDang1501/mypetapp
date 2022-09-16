@@ -1,0 +1,72 @@
+.ant-btn:hover,
+.ant-btn:focus {
+  background: none;
+  border-color: none;
+  transform: scale(1.1);
+  cursor: pointer;
+  transition: all 0.2 ease;
+}
+.ant-btn-primary{
+    border-color: #333;
+}
+.pet-mart{
+    width: 90%;
+    margin: 25px auto;
+    .pet-mart__title{
+        font-weight: 700;
+        font-size: 30px;
+        color: #C79572;
+        margin-right: 3px;
+
+    }
+    .pet-mart__title--css{
+        font-weight: 700;
+        font-size: 30px;
+        color: #333;
+    }
+    .pet-mart__line{
+        border-bottom: 3px solid #C79572;
+        width: 100%;
+        margin: 5px 0;
+    }
+    .pet-mart__item{
+        .title__item{
+            font-size: 25px;
+            text-transform: capitalize;
+        }
+        .pet-mart__item--line{
+            border-bottom: 1px solid #C79572;
+            width: 100%;
+            margin: 3px 0;
+        }
+        .color-item__container{
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            gap: 15px;
+            margin: 10px 0;
+            .color-item{
+                border-radius: 50%;
+                width: 50px;
+                height: 50px;
+                border: 1px solid #333;
+            }
+        }
+        .age__item{
+            font-weight: 400;
+            
+            .ant-checkbox-wrapper{
+                font-size: 25px;
+                gap: 3px;
+            }
+            .ant-checkbox-inner{
+                width: 20px;
+                height: 20px;
+            }
+            .ant-checkbox{
+                &:hover{
+                    border-color: #C79572;
+                }
+            }
+        }
+    }
+}

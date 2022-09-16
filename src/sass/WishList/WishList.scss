@@ -1,0 +1,91 @@
+.wish-list__background{
+    background: #FFF8F3;
+}
+.wish-list__wrapper{
+    padding: 6rem 0 2rem 0;
+    .wish-list__frame{
+        width: 250px;
+        height: 250px;
+        border-radius: 50%;
+        overflow: hidden;
+        margin-left: 60px;
+        background: linear-gradient(to top, #f6d0b4, #9c4100);
+        filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+        border: 4px solid transparent;
+    }
+    .wish-list__profile{
+        padding: 10px 0;
+        .wish-list__topic{
+            font-weight: 700;
+            font-size: 30px;
+        }
+        .wish-list__outline{
+            font-weight: 300;
+            font-size: 30px;
+        }
+    }
+}
+.your-story__container{
+    width: 75%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 3rem;
+    margin: 5rem auto;
+    .your-story__item{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        overflow: hidden;
+        .your-story--hover{
+            overflow: hidden;
+            width: 108px;
+            height: 108px;
+            border-radius: 50%;
+            .your-story__img{               
+                border-radius: 50%; 
+                width: 108px;
+                height: 108px;
+                &:hover{
+                    background: linear-gradient(to top, #f6d0b4, #9c4100);
+                    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+                    border: 3px solid transparent; /*2*/
+                    transition: all 0.2s ease;
+                    cursor: pointer;
+                }       
+            }
+            
+        }
+        .your-story__name{
+            font-size: 20px;
+        }
+    }
+    .your-story__add{
+        width: 108px;
+        height: 108px;
+        border-radius: 50%;
+        background: #F4F0D2;
+        color: #C79572;
+        font-size: 80px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        &:hover{
+            opacity: 0.8;
+            cursor: pointer;
+        }
+    }
+}
+.your-wish-list__wrapper{
+    width: 80rem;
+    margin: auto;
+    background: #FFFFFF;
+    border: 2px solid #C79572;
+    border-radius: 100px;
+    padding: 2rem 3rem;
+    .your-wish-list__title{
+        font-weight: 700;
+        font-size: 30px;
+        margin-right: 4px;
+    }
+}

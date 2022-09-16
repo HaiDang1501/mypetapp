@@ -1,0 +1,38 @@
+.App{
+    background: #FFF8F3;
+    width: 100%;
+    height: 100%;
+}
+.pet-detail__section1{
+    margin: 4rem auto;
+    .pet-img__wrapper{
+        gap: 10px;
+        display: flex;
+        
+        .pet-sub__frame{
+            // flex: 1;
+            display: flex;
+            flex-direction: column;
+            .pet-sub__img{
+                border-radius: 10px;
+                width: 100px;
+                height: 107px;
+            }
+        }
+        .pet-main__frame{
+            // flex: 4;
+            background: linear-gradient(to top, #f6d0b4, #9c4100);
+            filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+            border: 3px solid transparent; /*2*/
+            border-radius: 100px;
+            overflow: hidden;
+            width: 500px;
+            .pet-main__img{
+                background: #F4F0D2;
+                border-radius: 100px;
+                width: 500px;
+                height: 600px;
+            }
+        }
+    }
+}
